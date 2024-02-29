@@ -1,0 +1,27 @@
+:root{
+    --text-color: #111;
+}
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.none-boder{
+    border: none !important;
+}
+.gird{
+    width: 100%;
+    padding: 0 30px;
+}
+.btn{
+    max-width: 200px;
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 50px;
+}

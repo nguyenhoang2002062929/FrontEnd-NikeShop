@@ -1,0 +1,38 @@
+:root{
+    --text-color: #111;
+}
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.none-boder{
+    border: none !important;
+}
+.gird{
+    width: 100%;
+    padding: 0 30px;
+}
+.btn{
+    min-width: 40px;
+    padding: 8px 20px;
+    background-color: #000;
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    text-align: center;
+}
+.btn__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.btn:hover{
+    background-color: #757575;
+}

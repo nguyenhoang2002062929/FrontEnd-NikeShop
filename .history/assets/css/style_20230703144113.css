@@ -1,0 +1,5 @@
+/* header */
+.header__brand{
+    display: flex;
+    justify-content: space-between;
+}

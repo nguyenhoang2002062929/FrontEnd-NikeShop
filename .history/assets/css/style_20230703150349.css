@@ -1,0 +1,28 @@
+/* header */
+.header__brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+}
+.img__logo-jodan{
+    width: 20px;
+    height: 20px;
+}
+.header__brand-list{
+    display: flex;
+    list-style: none;
+}
+.header__brand-item{
+    padding: 0 10px;
+    border-left: 1px solid var(--text-color);
+}
+.header__brand-link{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    line-height: 1.1rem;
+}

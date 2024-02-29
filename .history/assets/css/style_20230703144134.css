@@ -1,0 +1,8 @@
+/* header */
+.header__brand{
+    display: flex;
+    justify-content: space-between;
+}
+.header__brand-list{
+    display: flex;
+}

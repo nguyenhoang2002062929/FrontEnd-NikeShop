@@ -1,0 +1,22 @@
+/* header */
+.header__brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.img__logo-jodan{
+    width: 20px;
+    height: 30px;
+}
+.header__brand-list{
+    display: flex;
+    list-style: none;
+}
+.header__brand-item{
+
+}
+.header__brand-link{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
